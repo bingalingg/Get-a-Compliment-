@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(pink\ bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+    font-family: "Caveat";
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    margin: 0;
+}
+h1{
+    margin: 1rem;
+    position: absolute; /* stays in place */
+    top: 0;
+    left: 0;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    height: 90vh;
+    align-items: center;
+    gap: 5rem;
+    background:  rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 600px;
+}
+.text h2{
+    font-size: clamp(3rem, 40%, 4rem);
+    text-shadow: 2px 2px #ffe6f0;
+}
+button{
+    padding: 1rem 1.5rem;
+    font-size: clamp(1rem, 30%, 1rem);
+    border-radius: 2rem;
+    background-color: blueviolet;
+    border: none;
+    font-family: "Caveat";
+    background: linear-gradient(135deg, #ff66b2, #cc33ff);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 77, 163, 0.6);
+}
+.get{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    gap: 5rem;
+}
+.get p{
+    font-size: clamp(20px, 60vw, 25px);
+}
+
